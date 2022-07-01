@@ -67,7 +67,7 @@ def load_data():
     df['straw'] = df.apply(lambda x: 1 if x['straw'] == 'One Hole' else 2, axis=1)
     df['lasagna'] = df.apply(lambda x: 1 if x['lasagna'] == 'One Lasagna' else 2, axis=1)
     
-    return df
+    return df  
 
 if __name__ == '__main__':
     main()
