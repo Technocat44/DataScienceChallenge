@@ -4,8 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
+    #New change
     # To change the number of rows displayed in the console
-
+    
     # pd.options.display.max_rows = 200
     df = load_data()
     print(df)
