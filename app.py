@@ -18,7 +18,7 @@ def main():
  
 
     df2 = pd.DataFrame() # created an empty data frame
-    
+    # newwwww
     # filled dataframe with columns 
     # Create a brand new column from scratch
     df2['Candy'] = ['KitKat', 'Snickers', 'Reeses'] # insert the values for that column
@@ -30,7 +30,7 @@ def main():
     print(df2)
     print(df2.loc[['II']]) # print a single row from the DataFrame
 
-    display_visual(df)
+    display_visual(df)  
 
 def display_visual(df):
     # look at examples from https://matplotlib.org/
